@@ -1,0 +1,38 @@
+<h1>Seja bem vindo. </h1>
+
+<h4 class="text-danger">{{ anuncio }}</h4>
+<div class="row">
+    <div class="col">
+        <app-card-produto [foto]="foto" [nomeProduto]="nomeProduto" [promocao]="promocao" [idProduto]="idProduto" [dataValidade]="Validade" [precoProduto]="precoProduto"></app-card-produto>
+    </div>
+
+    <div class="row"></div>
+
+    <div class="col"></div>
+
+    <div class="card">
+        <div class="card-body">
+            <app-card-produto foto="assets/img/kimono_de_jiu_jitsu_mks_light_azul_435_1_20200707163719.jpg" nomeProduto=" Kimono Azul Reforçado." [promocao]="false" [idProduto]="03" dataValidade="" [precoProduto]="250.00">
+            </app-card-produto>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-body">
+            <app-card-produto foto="assets/img/652e0d8802a334f755c8132e0198aa37_-_copia.jpg" nomeProduto=" Kimonos Rocho Feminino." [promocao]="false" [idProduto]="04" dataValidade="" [precoProduto]="245.00">
+            </app-card-produto>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-body">
+            <app-card-produto foto="assets/img/kimono-feminino-atama-classic-branco-jiujitsu-1_640x640+fill_ffffff.jpg" nomeProduto=" Kimonos Branco Feminino." [promocao]="false" [idProduto]="05" dataValidade="" [precoProduto]="245.00">
+            </app-card-produto>
+        </div>
+    </div>
+
+
+
+    <router-outlet></router-outlet>
